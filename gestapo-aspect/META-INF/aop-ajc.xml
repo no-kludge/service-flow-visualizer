@@ -1,0 +1,19 @@
+<!DOCTYPE aspectj PUBLIC
+        "-//AspectJ//DTD//EN" "http://www.eclipse.org/aspectj/dtd/aspectj.dtd">
+<aspectj>
+
+	<weaver>
+
+		only weave classes in our application-specific packages
+		<include within="com.infy.hk16.gestapo..*" />
+
+	</weaver>
+
+	<aspects>
+
+		<!-- weave in just this aspect -->
+		<aspect name="com.infy.hk16.gestapo.aspect.LogMethodCallsAspect" />
+
+	</aspects>
+
+</aspectj>
