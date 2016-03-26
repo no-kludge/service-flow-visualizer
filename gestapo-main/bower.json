@@ -1,0 +1,22 @@
+{
+  "name": "ServiceFlowVisualizer",
+  "version": "0.0.1",
+  "description": "Sequence diagram generator across services",
+  "main": "js/main.js",
+  "keywords": [
+    "sequence-diagram",
+    "uml",
+    "service-flow-viusalizer"
+  ],
+  "authors": [
+    "Vidyasagar Venkatachalam"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
