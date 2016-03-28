@@ -1,4 +1,4 @@
-package dao;
+package com.gestapo.dao;
 
 import java.util.List;
 

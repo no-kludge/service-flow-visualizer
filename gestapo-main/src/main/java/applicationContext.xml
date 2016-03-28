@@ -17,7 +17,7 @@
       <property name="password" value="root123"/>
    </bean>
    
-   <bean id="dataDaoImpl" class="dao.DataDAOImpl">
+   <bean id="dataDaoImpl" class="com.gestapo.dao.DataDAOImpl">
       <property name="dataSource"  ref="dataSource" />    
    </bean>
 </beans>

@@ -1,12 +1,12 @@
-package model;
+package com.gestapo.model;
 
 import java.util.List;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import dao.Data;
-import dao.DataDAOImpl;
+import com.gestapo.dao.Data;
+import com.gestapo.dao.DataDAOImpl;
 
 public class DataModel {
 	public static List<Data> getData() {

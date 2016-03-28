@@ -1,4 +1,4 @@
-package com.infy.hk16.gestapo.eg_client;
+package com.gestapo.eg_client;
 
 public class Requestor {
 

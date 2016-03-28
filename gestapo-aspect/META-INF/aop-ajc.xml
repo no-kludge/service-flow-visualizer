@@ -4,15 +4,14 @@
 
 	<weaver>
 
-		only weave classes in our application-specific packages
-		<include within="com.infy.hk16.gestapo..*" />
+		<include within="com.gestapo..*" />
 
 	</weaver>
 
 	<aspects>
 
 		<!-- weave in just this aspect -->
-		<aspect name="com.infy.hk16.gestapo.aspect.LogMethodCallsAspect" />
+		<aspect name="com.gestapo.aspect.LogMethodCallsAspect" />
 
 	</aspects>
 

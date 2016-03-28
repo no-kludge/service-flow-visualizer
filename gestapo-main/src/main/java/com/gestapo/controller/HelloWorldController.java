@@ -1,8 +1,6 @@
-package com.infosys.hack.sfv.controller;
+package com.gestapo.controller;
 
 import java.util.List;
-
-import model.DataModel;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
-import dao.Data;
-import dao.DataDAOImpl;
+import com.gestapo.dao.Data;
+import com.gestapo.model.DataModel;
 
 @Controller
 public class HelloWorldController {

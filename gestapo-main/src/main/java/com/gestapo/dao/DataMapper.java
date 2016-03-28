@@ -1,4 +1,4 @@
-package dao;
+package com.gestapo.dao;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
