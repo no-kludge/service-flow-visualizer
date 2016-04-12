@@ -20,12 +20,9 @@
 				<configuration>
 					<outxml>true</outxml>
 					<outxmlfile>META-INF/aop.xml</outxmlfile>
-					<archive>
-						<addMavenDescriptor>false</addMavenDescriptor>
-					</archive>
-					<source>1.6</source>
-					<target>1.6</target>
-					<complianceLevel>1.6</complianceLevel>
+					<source>1.8</source>
+					<target>1.8</target>
+					<complianceLevel>1.8</complianceLevel>
 				</configuration>
 				<executions>
 					<execution>
@@ -38,5 +35,6 @@
 				</executions>
 			</plugin>
 		</plugins>
+		<finalName>${project.artifactId}</finalName>
 	</build>
 </project>
